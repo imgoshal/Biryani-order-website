@@ -1,0 +1,165 @@
+.subname{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.title{
+    padding-left: 430px;
+    padding-bottom: 5%;
+    color: #e9750f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subname ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px ;
+    margin-left: 10px;
+}
+
+.subname li {
+    display: inline;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.subname li a{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    background-color:white; 
+    color: black; 
+    padding: 12px 24px;
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 60px; 
+}
+    
+.subname li a:hover {
+    font-weight: 900;
+    border: 1px solid rgb(246, 245, 245);
+    background-color:#e9750f;
+    color: white;
+    transition: all .3s;
+    }
+ 
+.banner {
+    margin: auto;
+    display: flex;
+    margin: auto;  
+    background-size: cover;  
+}
+
+.menu{
+    padding-left: 690px;
+    color:#e9750f;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: grid; 
+    grid-gap: 15px;
+    grid-template-columns: repeat(8, 260px);
+    margin: 10%;
+    margin-top: 0%;
+    overflow-x: scroll;
+}
+ 
+.biryani{
+    border: 1px solid;
+    height: 380px;
+}
+
+.biryani:hover{
+    background-color: #e9750f;
+}
+
+.biryani img{
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.biryani p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 0%;
+}
+
+.biryani button{
+    border: 1px solid;  
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.biryani button:hover{
+    background-color: #352e2e;
+    color: white;
+    border: black;
+}
+
+.order{
+    margin-top: -100px;
+    margin-bottom: 45px;
+    text-align: center;
+
+}
+
+.order button a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.order button{
+    border: 1px solid;  
+    border-radius: 10cap;
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.order button:hover{
+    background-color: #e9750f;
+    color: #fff;
+}
+
+footer{
+    background-color: #333;
+	color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a{
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+
+
+
+
+  
+
+  
+

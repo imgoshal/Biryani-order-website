@@ -1,0 +1,45 @@
+.card {
+	margin-top: 50px;
+	border: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+	background-color:#333;
+	color: #fff;
+	padding: 10px;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	font-weight: 600;
+}
+
+.btn-primary {
+	background-color: #333;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color:#333;
+
+}
+
+.btn-block {
+	border-radius: 20px;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: #333;
+}
